@@ -20,5 +20,5 @@ from . import gittst
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path(include(gittst.urls))
-]
+    path(include(gittst.urls)),
+] 
