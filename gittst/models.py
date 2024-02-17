@@ -11,3 +11,7 @@ class GitUser(models.Model):
 
     def __str__(self):
         return self.username
+    
+
+class somethingelse(models.Model):
+    good = models.CharField(max_length=20)
